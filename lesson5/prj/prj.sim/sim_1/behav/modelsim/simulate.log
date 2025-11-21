@@ -1,0 +1,71 @@
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {tb_simulate.do}
+# vsim -voptargs=""+acc"" -L fifo_generator_v13_2_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.tb xil_defaultlib.glbl 
+# Start time: 13:43:26 on Nov 21,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: E:\Vivado2019.1\Vivado\2019.1\data\ip\xilinx\fifo_generator_v13_2\simulation\fifo_generator_vlog_beh.v(5400): (vopt-2697) LSB of part-select into 'num_read_words_dc' is out of bounds.
+# ** Warning: E:\Vivado2019.1\Vivado\2019.1\data\ip\xilinx\fifo_generator_v13_2\simulation\fifo_generator_vlog_beh.v(5450): (vopt-2697) LSB of part-select into 'num_write_words_dc' is out of bounds.
+# ** Note: (vopt-143) Recognized 1 FSM in module "fifo_generator_v13_2_4_bhv_ver_preload0(fast)".
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.clk_global(fast)
+# Loading work.clk_global_clk_wiz(fast)
+# Loading unisims_ver.IBUF(fast)
+# Loading unisims_ver.MMCME2_ADV(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.pp_fifo(fast)
+# Loading work.fifo_ch0(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_vlog_beh(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_v13_2_4_CONV_VER(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_v13_2_4_bhv_ver_as(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_v13_2_4_sync_stage(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_v13_2_4_bhv_ver_preload0(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+add wave -position insertpoint sim:/tb/u1_top/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.clk_global(fast)
+# Loading work.clk_global_clk_wiz(fast)
+# Loading unisims_ver.IBUF(fast)
+# Loading unisims_ver.MMCME2_ADV(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.pp_fifo(fast)
+# Loading work.fifo_ch0(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_vlog_beh(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_v13_2_4_CONV_VER(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_v13_2_4_bhv_ver_as(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_v13_2_4_sync_stage(fast)
+# Loading fifo_generator_v13_2_4.fifo_generator_v13_2_4_bhv_ver_preload0(fast)
+# Loading work.glbl(fast)
+run -all
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+run -all
+# Causality operation skipped due to absence of debug database file
+# End time: 13:51:10 on Nov 21,2025, Elapsed time: 0:07:44
+# Errors: 0, Warnings: 1

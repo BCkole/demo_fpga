@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 13 21:15:25 2025
+# Process ID: 17428
+# Current directory: F:/lesson/course_zero/lesson8/prj/prj.runs/clk_global_synth_1
+# Command line: vivado.exe -log clk_global.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_global.tcl
+# Log file: F:/lesson/course_zero/lesson8/prj/prj.runs/clk_global_synth_1/clk_global.vds
+# Journal file: F:/lesson/course_zero/lesson8/prj/prj.runs/clk_global_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_global.tcl -notrace

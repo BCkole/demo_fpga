@@ -1,0 +1,146 @@
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {multichannel_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.multichannel_tb xil_defaultlib.glbl 
+# Start time: 16:28:52 on Nov 13,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.multichannel_tb(fast)
+# Loading sv_std.std
+# Loading work.adc_data(fast)
+# Loading work.multichannel(fast)
+# Loading work.ram_mem(fast)
+# Loading work.ram_chanel(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(fast__1)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_output_reg_stage(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_axi_regs_fwd_v8_4(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) ../../../../../sim/multichannel_tb.v(123): [PCDPC] - Port size (8) does not match connection size (32) for port 'channel'. The port definition is at: ../../../../../src/multichannel.v(35).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel File: ../../../../../src/multichannel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[0]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[0]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[1]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[1]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[2]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[2]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[3]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[3]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[4]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[4]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[5]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[5]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[6]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[6]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[7]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[7]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[0].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[1].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[2].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[3].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[4].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[5].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[6].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[7].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+add wave -position insertpoint sim:/multichannel_tb/multichannel/*
+add wave -position insertpoint sim:/multichannel_tb/multichannel/ram_mem/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.multichannel_tb(fast)
+# Loading work.adc_data(fast)
+# Loading work.multichannel(fast)
+# Loading work.ram_mem(fast)
+# Loading work.ram_chanel(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(fast__1)
+# Loading blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_output_reg_stage(fast)
+# Loading blk_mem_gen_v8_4_3.blk_mem_axi_regs_fwd_v8_4(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) ../../../../../sim/multichannel_tb.v(123): [PCDPC] - Port size (8) does not match connection size (32) for port 'channel'. The port definition is at: ../../../../../src/multichannel.v(35).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel File: ../../../../../src/multichannel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[0]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[0]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[1]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[1]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[2]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[2]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[3]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[3]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[4]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[4]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[5]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[5]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[6]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[6]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addra'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(59).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[7]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+# ** Warning: (vsim-3015) ../../../../../src/ram_mem.v(105): [PCDPC] - Port size (3) does not match connection size (16) for port 'addrb'. The port definition is at: ../../../../../ip/ram_chanel/sim/ram_chanel.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /multichannel_tb/multichannel/ram_mem/cl0[7]/ram_chanel_u0 File: ../../../../../ip/ram_chanel/sim/ram_chanel.v
+run -all
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[0].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[1].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[2].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[3].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[4].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[5].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[6].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module multichannel_tb.multichannel.ram_mem.cl0[7].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# blk_mem_gen_v8_4_3 collision detected at time: 1235000, Instance: multichannel_tb.multichannel.ram_mem.cl0[0].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst.async_coll, A write address: 0, B  read address: 0
+# blk_mem_gen_v8_4_3 collision detected at time: 1235000, Instance: multichannel_tb.multichannel.ram_mem.cl0[1].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst.async_coll, A write address: 0, B  read address: 0
+# blk_mem_gen_v8_4_3 collision detected at time: 1235000, Instance: multichannel_tb.multichannel.ram_mem.cl0[2].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst.async_coll, A write address: 0, B  read address: 0
+# blk_mem_gen_v8_4_3 collision detected at time: 1235000, Instance: multichannel_tb.multichannel.ram_mem.cl0[3].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst.async_coll, A write address: 0, B  read address: 0
+# blk_mem_gen_v8_4_3 collision detected at time: 1235000, Instance: multichannel_tb.multichannel.ram_mem.cl0[4].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst.async_coll, A write address: 0, B  read address: 0
+# blk_mem_gen_v8_4_3 collision detected at time: 1235000, Instance: multichannel_tb.multichannel.ram_mem.cl0[5].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst.async_coll, A write address: 0, B  read address: 0
+# blk_mem_gen_v8_4_3 collision detected at time: 1235000, Instance: multichannel_tb.multichannel.ram_mem.cl0[6].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst.async_coll, A write address: 0, B  read address: 0
+# blk_mem_gen_v8_4_3 collision detected at time: 1235000, Instance: multichannel_tb.multichannel.ram_mem.cl0[7].ram_chanel_u0.inst.native_mem_module.blk_mem_gen_v8_4_3_inst.async_coll, A write address: 0, B  read address: 0
+# End time: 16:33:28 on Nov 13,2025, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 0

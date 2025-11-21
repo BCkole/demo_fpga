@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Oct 24 14:51:53 2024
+# Process ID: 2256
+# Current directory: D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22676 D:\Users\BCKL\Desktop\FILE\Stereo_camera\lesson\Num1\lesson0\prj\prj.xpr
+# Log file: D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/vivado.log
+# Journal file: D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/prj.xpr
+launch_simulation
+launch_simulation

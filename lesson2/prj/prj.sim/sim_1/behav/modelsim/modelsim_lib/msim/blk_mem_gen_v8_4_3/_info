@@ -1,0 +1,333 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.sim/sim_1/behav/modelsim
+vbeh_vlog_ff_ce_clr_v8_4
+Z1 !s10a 1761614833
+Z2 !s110 1761615632
+!i10b 1
+!s100 fDhWk>T2lebn;efljR]4W1
+I1_9En9aGS<gJ@?34KZj820
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1761614833
+Z5 8../../../../prj.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v
+Z6 F../../../../prj.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v
+L0 148
+Z7 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z8 !s108 1761615632.000000
+Z9 !s107 ../../../../prj.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v|
+Z10 !s90 -64|-incr|-work|blk_mem_gen_v8_4_3|+incdir+../../../../../ip/clk_global|../../../../prj.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v|
+!i113 0
+Z11 o-work blk_mem_gen_v8_4_3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -work blk_mem_gen_v8_4_3 +incdir+../../../../../ip/clk_global -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+vbeh_vlog_ff_clr_v8_4
+R1
+R2
+!i10b 1
+!s100 E[?m6==2`5zcSGO_DlREZ3
+IIBk4ZUV=:HF=KM:_@1knN3
+R3
+R0
+R4
+R5
+R6
+L0 109
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vbeh_vlog_ff_pre_v8_4
+R1
+R2
+!i10b 1
+!s100 mN7B7=ehdi@KiGW7C1g7;3
+I;JK5?nSFL2nSS>7B8O68f2
+R3
+R0
+R4
+R5
+R6
+L0 129
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vbeh_vlog_muxf7_v8_4
+R1
+R2
+!i10b 1
+!s100 R8;jfGh8i2;8f058`ZBki3
+IC3dRi`Ze@`]ihPIQ_aR;11
+R3
+R0
+R4
+R5
+R6
+L0 95
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vblk_mem_axi_read_wrapper_beh_v8_4
+R1
+R2
+!i10b 1
+!s100 >7BI;_oEZCI<VF<h2cfh21
+IOoo1_cz[c>YZaLRakNCi?2
+R3
+R0
+R4
+R5
+R6
+L0 1270
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vblk_mem_axi_regs_fwd_v8_4
+R1
+R2
+!i10b 1
+!s100 E^j=VYZTmKFGD7E=IAE<43
+IB_c;ec;Gi9CCczEQmSJeH1
+R3
+R0
+R4
+R5
+R6
+L0 1493
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vblk_mem_axi_write_wrapper_beh_v8_4
+R1
+R2
+!i10b 1
+!s100 eYB3YBCC[4ZP`ODELGB8@3
+IOUKd3[k4bZ^^haL3eLHR43
+R3
+R0
+R4
+R5
+R6
+L0 994
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vblk_mem_gen_v8_4_3
+R1
+R2
+!i10b 1
+!s100 SVZZN6@WB7TDEDCkO0zMn1
+IGR_C9Y6K>]MAGba4U6SI72
+R3
+R0
+R4
+R5
+R6
+L0 3412
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vblk_mem_gen_v8_4_3_mem_module
+R1
+R2
+!i10b 1
+!s100 M]DG04AM5zRj<EP85bYIP2
+IV8iQTG?G:H4fJgE6Yl6a93
+R3
+R0
+R4
+R5
+R6
+L0 1951
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vblk_mem_gen_v8_4_3_output_stage
+R1
+R2
+!i10b 1
+!s100 DH`JFX4XOF1LknK20FBfC0
+IGDlSbYYOj^;l4QoNKB]QV1
+R3
+R0
+R4
+R5
+R6
+L0 1563
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vblk_mem_gen_v8_4_3_softecc_output_reg_stage
+R1
+R2
+!i10b 1
+!s100 m1D6dD`Df3lRQ<ToZkIIe2
+I6=;5mi[9RME<kal]?MX4B0
+R3
+R0
+R4
+R5
+R6
+L0 1859
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vread_netlist_v8_4
+R1
+R2
+!i10b 1
+!s100 ;;8PJC@IMQcejV@V_B6Yd2
+IDA?S32DII<<4M9EZVHBY<2
+R3
+R0
+R4
+R5
+R6
+L0 635
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vSTATE_LOGIC_v8_4
+R1
+R2
+!i10b 1
+!s100 k>U[WISOcbVBS3]nkRADH2
+Iz>77cN5k_PDlIiMj;P1YG1
+R3
+R0
+R4
+R5
+R6
+L0 73
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n@s@t@a@t@e_@l@o@g@i@c_v8_4
+vwrite_netlist_v8_4
+R1
+R2
+!i10b 1
+!s100 e46K^[8=HIXD5b8LSU?<42
+I7_PO[[`fW[9VzQFW:ZbBF1
+R3
+R0
+R4
+R5
+R6
+L0 166
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13

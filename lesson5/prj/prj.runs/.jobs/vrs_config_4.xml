@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="cpu_microblaze_0_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cpu_clk_wiz_0_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cpu_dlmb_v10_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cpu_ilmb_v10_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="cpu_dlmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="cpu_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cpu_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cpu_lmb_bram_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cpu_mdm_1_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cpu_rst_clk_wiz_0_100M_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_rst_clk_wiz_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cpu_axi_quad_spi_0_0_synth_1" LaunchDir="G:/vivado_code/flash/flash_v2.0/prj/prj.runs/cpu_axi_quad_spi_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

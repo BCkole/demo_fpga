@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Oct 24 14:51:53 2024
+# Process ID: 2256
+# Current directory: D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22676 D:\Users\BCKL\Desktop\FILE\Stereo_camera\lesson\Num1\lesson0\prj\prj.xpr
+# Log file: D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/vivado.log
+# Journal file: D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/prj.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/lesson0/prj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2018.3/data/ip'.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/prj.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\Modelsim\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/prj.sim/sim_1/behav/modelsim'
+Reading E:/Modelsim/tcl/vsim/pref.tcl
+
+# 10.4
+
+# do {tb_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# 
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:52:45 on Oct 24,2024
+# vlog -64 -incr -work xil_defaultlib ../../../../../sim/img_gen.v ../../../../../sim/tb.v 
+# -- Skipping module img_gen
+# -- Skipping module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:52:45 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:52:45 on Oct 24,2024
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:52:45 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/prj.sim/sim_1/behav/modelsim'
+Program launched (PID=27920)
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/prj.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\Modelsim\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/prj.sim/sim_1/behav/modelsim'
+Reading E:/Modelsim/tcl/vsim/pref.tcl
+
+# 10.4
+
+# do {tb_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# 
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:54:22 on Oct 24,2024
+# vlog -64 -incr -work xil_defaultlib ../../../../../sim/img_gen.v ../../../../../sim/tb.v 
+# -- Compiling module img_gen
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 14:54:22 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:54:22 on Oct 24,2024
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:54:22 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'D:/Users/BCKL/Desktop/FILE/Stereo_camera/lesson/Num1/lesson0/prj/prj.sim/sim_1/behav/modelsim'
+Program launched (PID=30152)
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 24 15:31:55 2024...

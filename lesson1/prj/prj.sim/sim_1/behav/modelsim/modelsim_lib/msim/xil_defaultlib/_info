@@ -1,0 +1,384 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/lesson/course_zero/lesson8/prj/prj.sim/sim_1/behav/modelsim
+T_opt
+!s110 1744550918
+VfYe0fZPBo=4ZAD[C95aiU2
+Z1 04 2 4 work tb fast 0
+Z2 04 4 4 work glbl fast 0
+=1-189341305066-67fbbc06-a2-41b8
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.5;63
+R0
+T_opt1
+!s110 1744551567
+V5k@=zNdNGfB973EYeBdmc3
+R1
+R2
+=1-189341305066-67fbbe8f-162-f00
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+R3
+n@_opt1
+R4
+vclk_global
+Z5 !s110 1744551560
+!i10b 1
+!s100 h7T0W@SJTEZHh8DZ9z`=K3
+IgWOhGfnE=1`KDAmhHN6Yf0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1744550121
+8../../../../../ip/clk_global/clk_global.v
+F../../../../../ip/clk_global/clk_global.v
+L0 76
+Z8 OL;L;10.5;63
+r1
+!s85 0
+31
+Z9 !s108 1744551560.000000
+Z10 !s107 ../../../../../sim/tb.v|../../../../../src/clk_test.v|../../../../../ip/clk_global/clk_global.v|../../../../../ip/clk_global/clk_global_clk_wiz.v|../../../../../ip/clk_vga/clk_vga.v|../../../../../ip/clk_vga/clk_vga_clk_wiz.v|
+Z11 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../../ip/clk_global|+incdir+../../../../../ip/clk_vga|../../../../../ip/clk_vga/clk_vga_clk_wiz.v|../../../../../ip/clk_vga/clk_vga.v|../../../../../ip/clk_global/clk_global_clk_wiz.v|../../../../../ip/clk_global/clk_global.v|../../../../../src/clk_test.v|../../../../../sim/tb.v|
+!i113 0
+Z12 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -work xil_defaultlib +incdir+../../../../../ip/clk_global +incdir+../../../../../ip/clk_vga -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vclk_global_clk_wiz
+R5
+!i10b 1
+!s100 IK>YPF0Wg8ii1Gi_zc3j20
+III^<IP1i1o4boT53WlcY`0
+R6
+R0
+R7
+8../../../../../ip/clk_global/clk_global_clk_wiz.v
+F../../../../../ip/clk_global/clk_global_clk_wiz.v
+L0 74
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vclk_test
+R5
+!i10b 1
+!s100 die6mf8KdZVk8JC=E:lGn1
+Id`YVl=5CF_oNSo@AC4jgS1
+R6
+R0
+w1744551551
+8../../../../../src/clk_test.v
+F../../../../../src/clk_test.v
+Z14 L0 23
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vclk_vga
+R5
+!i10b 1
+!s100 oS]g_8Q4_djeR^e]lNJ=10
+IYSf4`XWf;dNPTl:528`@e1
+R6
+R0
+Z15 w1744551384
+8../../../../../ip/clk_vga/clk_vga.v
+F../../../../../ip/clk_vga/clk_vga.v
+L0 70
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vclk_vga_clk_wiz
+R5
+!i10b 1
+!s100 =N`JEMQFGQXb_m5i1<a2e0
+ISiZSV_Ko2dYEGXFz[_P1n1
+R6
+R0
+R15
+8../../../../../ip/clk_vga/clk_vga_clk_wiz.v
+F../../../../../ip/clk_vga/clk_vga_clk_wiz.v
+L0 68
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vglbl
+!s110 1744551561
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+R6
+R0
+w1558713910
+8glbl.v
+Fglbl.v
+L0 6
+R8
+r1
+!s85 0
+31
+!s108 1744551561.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R12
+R3
+vtb
+R5
+!i10b 1
+!s100 1I4Gj?00EZIc;S_A8[ZXO1
+I[[5UHd7iVIjGd[c_L7LTD2
+R6
+R0
+w1744550820
+8../../../../../sim/tb.v
+F../../../../../sim/tb.v
+R14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R3
+vxpm_cdc_array_single
+Z16 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z17 !s110 1744550910
+!i10b 1
+!s100 =VCjSNQS`Sc;VVc:>Ya>X3
+IfUJlRk>BaYdZ<STnRlAQ13
+R6
+Z18 !s105 xpm_cdc_sv_unit
+S1
+R0
+Z19 w1558741136
+Z20 8D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+Z21 FD:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+L0 903
+R8
+r1
+!s85 0
+31
+Z22 !s108 1744550910.000000
+Z23 !s107 D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|
+Z24 !s90 -64|-incr|-sv|-work|xil_defaultlib|+incdir+../../../../../ip/clk_global|D:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|
+!i113 0
+Z25 o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z26 !s92 -sv -work xil_defaultlib +incdir+../../../../../ip/clk_global -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vxpm_cdc_async_rst
+R16
+R17
+!i10b 1
+!s100 0^B>I@]YG>O`F06]ME?Kz2
+I<?J[CLCGSDC::T:3^PX5n2
+R6
+R18
+S1
+R0
+R19
+R20
+R21
+L0 1175
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R25
+R26
+R3
+vxpm_cdc_gray
+R16
+R17
+!i10b 1
+!s100 c5:[hXPGkREE=om;h1PER2
+Im_T=R9hRObI3_Il];fd@I3
+R6
+R18
+S1
+R0
+R19
+R20
+R21
+L0 284
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R25
+R26
+R3
+vxpm_cdc_handshake
+R16
+R17
+!i10b 1
+!s100 2nX[0D7bN@CTBzPhT6ZId2
+IK5oM7IiX:ejmhoV6S]iA60
+R6
+R18
+S1
+R0
+R19
+R20
+R21
+L0 469
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R25
+R26
+R3
+vxpm_cdc_low_latency_handshake
+R16
+R17
+!i10b 1
+!s100 DUQY8F6f@DWmT?f9Uo8G01
+IdzNaMV7Zn<Qk1Rf3HijPN2
+R6
+R18
+S1
+R0
+R19
+R20
+R21
+L0 1265
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R25
+R26
+R3
+vxpm_cdc_pulse
+R16
+R17
+!i10b 1
+!s100 =[IbJ?5ZSd_W^B7BUX1:S1
+I6alN]TWmdzZ>RWYje2G=a3
+R6
+R18
+S1
+R0
+R19
+R20
+R21
+L0 715
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R25
+R26
+R3
+vxpm_cdc_single
+R16
+R17
+!i10b 1
+!s100 ET1C2ZNLeac[<SbXI_oJ_0
+I]V>b@Q8LCIkbQSZg<FG5[1
+R6
+R18
+S1
+R0
+R19
+R20
+R21
+L0 153
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R25
+R26
+R3
+vxpm_cdc_sync_rst
+R16
+R17
+!i10b 1
+!s100 SPJeHj8CAXRP0D6YU2jDG2
+IH^I1?bWW85GmiGC`I@oYk2
+R6
+R18
+S1
+R0
+R19
+R20
+R21
+L0 1059
+R8
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R25
+R26
+R3

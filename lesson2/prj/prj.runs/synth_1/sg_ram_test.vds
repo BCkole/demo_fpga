@@ -1,0 +1,660 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 30 09:02:27 2025
+# Process ID: 21124
+# Current directory: D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.runs/synth_1
+# Command line: vivado.exe -log sg_ram_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sg_ram_test.tcl
+# Log file: D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.runs/synth_1/sg_ram_test.vds
+# Journal file: D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sg_ram_test.tcl -notrace
+Command: synth_design -top sg_ram_test -part xc7z035ffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z035'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z035'
+INFO: [Device 21-403] Loading part xc7z035ffg900-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12196 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 897.375 ; gain = 178.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'sg_ram_test' [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/src/sg_ram_test.v:23]
+	Parameter depth bound to: 256 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clk_global' [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global.v:71]
+INFO: [Synth 8-6157] synthesizing module 'clk_global_clk_wiz' [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global_clk_wiz.v:69]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [E:/Vivado2019.1/Vivado/2019.1/scripts/rt/data/unisim_comp.v:32856]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (1#1) [E:/Vivado2019.1/Vivado/2019.1/scripts/rt/data/unisim_comp.v:32856]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [E:/Vivado2019.1/Vivado/2019.1/scripts/rt/data/unisim_comp.v:39813]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 20.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 20.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 20 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (2#1) [E:/Vivado2019.1/Vivado/2019.1/scripts/rt/data/unisim_comp.v:39813]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [E:/Vivado2019.1/Vivado/2019.1/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (3#1) [E:/Vivado2019.1/Vivado/2019.1/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'clk_global_clk_wiz' (4#1) [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global_clk_wiz.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'clk_global' (5#1) [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global.v:71]
+INFO: [Synth 8-638] synthesizing module 'sg_ram' [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/sg_ram/synth/sg_ram.vhd:69]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: sg_ram.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 8 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 8 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 8 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 8 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.3883 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_3' declared at 'd:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/ram_next/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_3' [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/sg_ram/synth/sg_ram.vhd:234]
+INFO: [Synth 8-256] done synthesizing module 'sg_ram' (14#1) [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/sg_ram/synth/sg_ram.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'ram_next' [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/ram_next/synth/ram_next.vhd:69]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: ram_next.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 8 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 8 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 8 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 8 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.3883 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_3' declared at 'd:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/ram_next/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_3' [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/ram_next/synth/ram_next.vhd:234]
+INFO: [Synth 8-256] done synthesizing module 'ram_next' (15#1) [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/ram_next/synth/ram_next.vhd:69]
+WARNING: [Synth 8-6014] Unused sequential element rd_data_en_reg was removed.  [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/src/sg_ram_test.v:158]
+WARNING: [Synth 8-6014] Unused sequential element error_sig_reg was removed.  [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/src/sg_ram_test.v:182]
+WARNING: [Synth 8-6014] Unused sequential element complete_reg was removed.  [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/src/sg_ram_test.v:190]
+INFO: [Synth 8-6155] done synthesizing module 'sg_ram_test' (16#1) [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/src/sg_ram_test.v:23]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port SSRA
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port CLKB
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port SSRB
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ENB
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port REGCEB
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port WEB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[8]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ADDRB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[35]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[34]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[33]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[32]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[31]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[30]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[29]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[28]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[27]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[26]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[25]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[24]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[23]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[22]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[21]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[20]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[19]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[18]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[17]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[16]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[15]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[14]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[13]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[12]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[11]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[10]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[9]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[8]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port DINB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port SLEEP
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port INJECTSBITERR
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port INJECTDBITERR
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ECCPIPECE
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ram_rstram_b
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized0 has unconnected port ram_rstreg_b
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr__parameterized0 has unconnected port REGCEA[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr__parameterized0 has unconnected port REGCEB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr__parameterized0 has unconnected port INJECTSBITERR
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr__parameterized0 has unconnected port INJECTDBITERR
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port CLKB
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DOUTB_I[7]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DOUTB_I[6]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DOUTB_I[5]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DOUTB_I[4]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DOUTB_I[3]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DOUTB_I[2]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DOUTB_I[1]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DOUTB_I[0]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port SBITERR_I
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port DBITERR_I
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[8]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[7]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[6]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[5]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[4]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[3]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[2]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[1]
+WARNING: [Synth 8-3331] design blk_mem_output_block__parameterized0 has unconnected port RDADDRECC_I[0]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port RSTA
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ENA
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port REGCEA
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port CLKB
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port RSTB
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ENB
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port REGCEB
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port WEB[0]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[8]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[7]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[6]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[5]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[4]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[3]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[2]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[1]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port ADDRB[0]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port DINB[7]
+WARNING: [Synth 8-3331] design blk_mem_input_block__parameterized0 has unconnected port DINB[6]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global_board.xdc] for cell 'u1_clk_global/inst'
+Finished Parsing XDC File [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global_board.xdc] for cell 'u1_clk_global/inst'
+Parsing XDC File [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global.xdc] for cell 'u1_clk_global/inst'
+Finished Parsing XDC File [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global.xdc] for cell 'u1_clk_global/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/ip/clk_global/clk_global.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sg_ram_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sg_ram_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/xdc/xdc.xdc]
+Finished Parsing XDC File [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/xdc/xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/xdc/xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sg_ram_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sg_ram_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sg_ram_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sg_ram_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1228.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1228.688 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z035ffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for u1_clk_global/inst. (constraint file  D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.runs/synth_1/dont_touch.xdc, line 20).
+Applied set_property DONT_TOUCH = true for u1_ram_next. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u1_sg_ram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u1_clk_global. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   3 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sg_ram_test 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   3 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1000 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     3|
+|2     |CARRY4     |     4|
+|3     |LUT1       |     5|
+|4     |LUT2       |    23|
+|5     |LUT3       |    15|
+|6     |LUT4       |     6|
+|7     |LUT5       |    13|
+|8     |LUT6       |    21|
+|9     |MMCME2_ADV |     1|
+|10    |RAMB18E1   |     2|
+|11    |FDRE       |    54|
+|12    |IBUF       |     1|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------------+-----------------------------------------+------+
+|      |Instance                                       |Module                                   |Cells |
++------+-----------------------------------------------+-----------------------------------------+------+
+|1     |top                                            |                                         |   148|
+|2     |  u1_clk_global                                |clk_global                               |     5|
+|3     |    inst                                       |clk_global_clk_wiz                       |     5|
+|4     |  u1_sg_ram                                    |sg_ram                                   |     1|
+|5     |    U0                                         |blk_mem_gen_v8_4_3                       |     1|
+|6     |      inst_blk_mem_gen                         |blk_mem_gen_v8_4_3_synth                 |     1|
+|7     |        \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top                          |     1|
+|8     |          \valid.cstr                          |blk_mem_gen_generic_cstr                 |     1|
+|9     |            \ramloop[0].ram.r                  |blk_mem_gen_prim_width                   |     1|
+|10    |              \prim_noinit.ram                 |blk_mem_gen_prim_wrapper                 |     1|
+|11    |  u1_ram_next                                  |ram_next                                 |     1|
+|12    |    U0                                         |blk_mem_gen_v8_4_3__parameterized1       |     1|
+|13    |      inst_blk_mem_gen                         |blk_mem_gen_v8_4_3_synth__parameterized0 |     1|
+|14    |        \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top__parameterized0          |     1|
+|15    |          \valid.cstr                          |blk_mem_gen_generic_cstr__parameterized0 |     1|
+|16    |            \ramloop[0].ram.r                  |blk_mem_gen_prim_width__parameterized0   |     1|
+|17    |              \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized0 |     1|
++------+-----------------------------------------------+-----------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1228.688 ; gain = 509.336
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 295 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:56 . Memory (MB): peak = 1228.688 ; gain = 509.336
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1228.688 ; gain = 509.336
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1228.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:03 . Memory (MB): peak = 1228.688 ; gain = 841.062
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1228.688 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Administrator/Desktop/FILE/lesson/Num0/lesson16/prj/prj.runs/synth_1/sg_ram_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file sg_ram_test_utilization_synth.rpt -pb sg_ram_test_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 30 09:03:34 2025...
