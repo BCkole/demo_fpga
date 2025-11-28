@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 28 15:36:03 2025
+# Process ID: 12408
+# Current directory: D:/Users/Administrator/Desktop/lesson33.2/prj/prj.runs/fifo_uart_rx_buf_synth_1
+# Command line: vivado.exe -log fifo_uart_rx_buf.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_uart_rx_buf.tcl
+# Log file: D:/Users/Administrator/Desktop/lesson33.2/prj/prj.runs/fifo_uart_rx_buf_synth_1/fifo_uart_rx_buf.vds
+# Journal file: D:/Users/Administrator/Desktop/lesson33.2/prj/prj.runs/fifo_uart_rx_buf_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo_uart_rx_buf.tcl -notrace

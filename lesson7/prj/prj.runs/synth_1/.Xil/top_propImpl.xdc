@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/Users/Administrator/Desktop/lesson33.2/xdc/xdc.xdc rfile:../../../../xdc/xdc.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AK17 [get_ports sys_clk_p]
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AJ11 [get_ports uart_rxd]
+set_property src_info {type:XDC file:1 line:11 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AM9 [get_ports uart_txd]

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="clk_global_synth_1" LaunchDir="G:/vivado_code/course_zero/lesson32.2/prj/prj.runs/clk_global_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_uart_rx_buf_synth_1" LaunchDir="G:/vivado_code/course_zero/lesson32.2/prj/prj.runs/fifo_uart_rx_buf_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_uart_tx_buf_synth_1" LaunchDir="G:/vivado_code/course_zero/lesson32.2/prj/prj.runs/fifo_uart_tx_buf_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
